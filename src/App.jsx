@@ -1,11 +1,14 @@
-import { useState } from 'react'
+/** @format */
 
-function App() {
-  return (
-    <>
-      <h1>React</h1>
-    </>
-  )
+import React from 'react'
+import Navbar from './components/Navbar'
+import Main from './components/Main'
+
+export default function App() {
+    return (
+        <div className="container">
+            <Navbar />
+            <Main />
+        </div>
+    )
 }
-
-export default App
